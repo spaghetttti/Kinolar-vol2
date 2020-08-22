@@ -1,0 +1,53 @@
+  .shit
+  {
+    background: lightblue;
+  }
+  h1
+  {
+    font-family: monospace;
+    background-color: lightpink;
+    color: white;
+  }
+ a
+ {
+   font-style: oblique;
+   color: red;
+ }
+ .garbage
+ {
+   font-size: 20px;
+   color: blue;
+   /*background-image: url("paper.gif");*/
+ }
+ .ramka
+ {
+   border:3px solid Tomato ;
+   opacity: 57% ;
+ }
+.fancyramka
+{
+  border-style: inset;
+  border-color: red green blue orange;
+
+}
+.onesidedborder
+{
+  border-left:12px solid green;
+  font-style: italic;
+  border-background: rgba(132, 69, 227, 0.83);
+
+}
+div.test1
+{
+  margin: 20px;
+  width: 120px;
+  border-style: inset;
+  border-radius: 15px;
+  border-color: rgba(90, 69, 245, 0.93);
+
+  color: white;
+}
+    div.test2
+    {
+      padding: 100px;
+    }
