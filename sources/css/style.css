@@ -1,0 +1,66 @@
+body
+{
+  background-color: rgb(9 42 90 / 95%);
+}
+
+.header a, a:hover
+{
+  text-decoration: none;
+}
+.header h1
+{
+  letter-spacing: 12px;
+  font-weight: 600;
+  font-size: 320%;  
+}
+.header p
+{
+  color: white !important;
+  font-size: 90%;
+  letter-spacing: 3px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover
+{
+    background-color:  rgb(21 52 98);
+}
+
+.nav-pills>li>a
+{
+    color: #fff;
+}
+
+.nav-pills>li>a:hover
+{
+  background-color: rgb(21 52 98);
+}
+
+.navbar-inverse
+{
+    padding: 14px;
+}
+
+@media (max-width: 767px)
+{
+  .nav-pills>li
+  {
+    float: none;
+  }
+
+  .nav-pills>li
+  {
+    text-align: center;
+  }
+
+  .header
+  {
+    letter-spacing: 5px;
+    font-size: 99%;
+    text-align: center;
+  }
+
+  .header h1
+  {
+    text-align: center;
+  }
+}
