@@ -11,7 +11,7 @@ body
 {
   letter-spacing: 12px;
   font-weight: 600;
-  font-size: 320%;  
+  font-size: 320%;
 }
 .header p
 {
@@ -38,6 +38,49 @@ body
 .navbar-inverse
 {
     padding: 14px;
+}
+
+.clear
+{
+  clear: both;
+  height: 63px;
+}
+
+.wrapper
+{
+  min-height: 100%;
+}
+
+.film_block img
+{
+	width:150px;
+  height:230px;
+	border: 5px outset rgba(21, 52, 98, 90%);
+  border-radius: 10px;
+  background-color: white;
+}
+
+html, body
+{
+  height: 100%;
+  color: white;
+}
+
+footer
+{
+  background-color: rgb(34 34 34);
+  border: 1px solid rgb(8, 8, 8);
+  padding: 17px 0 17px 0;
+}
+
+.text-center>a
+{
+  font-size: 17px;
+  font-weight: bold;
+}
+.text-center
+{
+  margin-bottom: 0;
 }
 
 @media (max-width: 767px)
