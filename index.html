@@ -62,6 +62,18 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-9 col-md-9 col-sm-9">
+
+            <form role="search" class="visible-xs">
+                <div class="form-group">
+                  <div class="input-group">
+                    <input type="search" class="form-control input-lg" placeholder="Your request">
+                    <div class="input-group-btn">
+                      <button class="btn btn-primary btn-lg" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                  </div>
+                 </div>
+                </form>
+
             <h2 class="h2-title">Top movies</h2><hr>
             <div class="row">
               <div class="film_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
@@ -138,9 +150,9 @@
               <div class="margin-8">
                 <!--MARGIN -->
               </div>
-              
+
                 <h3><a class="h-article" href="https://en.wikipedia.org/wiki/Interstellar_(film)#Production">How Interstellar was shot</a></h3>
-              
+
               <hr>
               <p class="text">
                 The premise for Interstellar was conceived by producer Lynda Obst and theoretical physicist Kip Thorne, who collaborated on the film Contact, and had known each other since Carl Sagan set them up on a blind date. The two conceived of a scenario, based on Thorne's work, about "the most exotic events in the universe suddenly becoming accessible to humans," and attracted filmmaker Steven Spielberg's interest in directing.
@@ -152,9 +164,9 @@
               <div class="margin-8">
                 <!--MARGIN -->
               </div>
-              
+
                 <h3><a  class="h-article" href="https://en.wikipedia.org/wiki/Southpaw_(film)#Plot">Plot of SouthPaw</a></h3>
-              
+
               <hr>
               <p class="text">
                 Billy "The Great" Hope is an undefeated professional boxer living in the suburbs of New York City with his wife Maureen and their daughter Leila. Both Billy and Maureen grew up together as orphans.
@@ -164,13 +176,16 @@
               <a href="https://en.wikipedia.org/wiki/Southpaw_(film)#Plot" class="btn btn-primary pull-right">
                 Read
               </a>
+              <div class="margin-8">
+              <!--MARGIN -->
+              </div>
 
           </div>
           <div class="col-lg-3 col-md-3 col-sm-3">
-            <div class="panel panel-primary">
+            <div class="panel panel-primary hidden-xs ">
               <div class="panel-heading"><div class="sidebar-header">Search</div></div>
               <div class="panel-body">
-                <form action="search">
+                <form role="search">
                   <div class="form-group">
                     <div class="input-group">
                       <input type="search" class="form-control input-lg" placeholder="Your request">
@@ -182,12 +197,13 @@
                 </form>
               </div>
             </div>
-              <div class="panel panel-primary">
+              <div class="panel panel-primary ">
               <div class="panel-heading"><div class="sidebar-header">Log in</div></div>
               <div class="panel-body">
+
                 <form role="form">
-                  <div class="form-group">
-                    <input type="text" class="form-control input-lg" placeholder="Username">
+                  <div class="form-group">    
+                     <input type="text" class="form-control input-lg" placeholder="Username">
                   </div>
                   <div class="form-group">
                     <input type="password" class="form-control input-lg" placeholder="Password">
@@ -203,19 +219,21 @@
               <button  class="btn btn-primary">
               Check it out</button>
               </div>
-            </div> 
+            </div>
             <div class="panel panel-primary">
               <div class="panel-heading"><div class="sidebar-header">Ratings</div></div>
               <div class="panel-body">
                 <ul class="list-group">
-                  <li class="list-group-item list-group-primary"> <a href="#">Interstellar </a> <span class="badge badge-primar y">8.6</span></li>
+                  <li class="list-group-item list-group-primary"> <a href="#">The Dark Knight</a> <span class="badge badge-primary hig">9.0</span></li>
+                  <li class="list-group-item list-group-primary"> <a href="#">Interstellar </a> <span class="badge badge-primary">8.6</span></li>
                   <li class="list-group-item list-group-primary"> <a href="#">Whiplash</a> <span class="badge">8.5</span></li>
                   <li class="list-group-item list-group-primary"> <a href="#">Shutter Island</a> <span class="badge">8.2</span> </li>
+                  <li class="list-group-item list-group-primary"> <a href="#">Back to the Future</a> <span class="badge med">7.8</span> </li>
                   <li class="list-group-item list-group-primary"> <a href="#">SouthPaw</a> <span class="badge med">7.4</span> </li>
                 </ul>
 
               </div>
-            </div> 
+            </div>
           </div>
         </div>
 

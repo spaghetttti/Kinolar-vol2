@@ -67,7 +67,7 @@ body
 
 .margin-8
 {
-  margin-top: 8%;
+  margin-top: 10%;
 }
 
 .btn
@@ -81,10 +81,16 @@ body
 input.form-control
 {
   background-color: #222;
-  border-color: rgb(0 34 83 / 95%);
+  border-color: white;
   border-width: 1px;
   color: white;
  }
+
+.btn-lg 
+{
+  border-color: white;
+  border-width: 1px;
+}
 
 .list-group>li
 {
@@ -114,6 +120,11 @@ input.form-control
   background-color: orange;
 }
 
+.hig
+{
+  background-color: #35be0e;
+}
+
  .panel button.btn-lg
  {
   border-width: 1px; 
@@ -122,6 +133,7 @@ input.form-control
  .panel-body button.btn-primary
  {
   border-width: 1px; 
+  border-color: white;
  }
 
  .panel-body>p
