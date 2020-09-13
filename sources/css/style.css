@@ -147,6 +147,7 @@ td>a
   margin-top: 10%;
 }
 
+
 .btn
 {
   background-color: #222;
@@ -167,6 +168,17 @@ input.form-control
 {
   border-color: white;
   border-width: 1px;
+}
+
+button.mainbtn : hover
+{
+  background-color: white;
+  color: black;
+}
+
+.btn
+{
+  background-color:rgb(21 52 98);
 }
 
 .list-group>li
@@ -245,6 +257,12 @@ h3>a:hover
   font-weight: 600;
 }
 
+.film_label
+{
+  padding: 2px;
+  font-weight: bold;
+}
+
 .text
 {
   color: #b2b2b2;
@@ -300,10 +318,6 @@ h3>a:hover
   margin-right: 2%;
 }
 
-.well .btn
-{
-  background-color:rgb(21 52 98);
-}
 
 .rev-body
 {
@@ -339,6 +353,11 @@ footer
   .nav-pills>li
   {
     float: none;
+  }
+
+  .margin-10
+  {
+    margin: 80px;
   }
 
   td.film_block>img
