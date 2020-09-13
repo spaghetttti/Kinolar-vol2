@@ -348,10 +348,15 @@ footer
     margin: 6px;
   }
 
-
   .nav-pills>li
   {
     text-align: center;
+  }
+
+  .carousel
+  {
+    height: 550px;
+    padding-top: 10px;
   }
 
   .header
@@ -365,4 +370,44 @@ footer
   {
     text-align: center;
   }
+}
+
+@media (min-width:395px) and (max-width:425px)
+{
+  .carousel
+  {
+    height:600px;
+    padding-top: 10px;
+  }
+
+}
+
+@media (min-width:426px) and (max-width:450px)
+{
+  .carousel
+  {
+    height:650px;
+    padding-top: 10px;
+  }
+
+}
+
+@media (min-width:769px) and (max-width:991px)
+{
+  .carousel
+  {
+    height: 250px;
+    padding-top: 10px;
+  }
+
+}
+
+@media (min-width:992px) and (max-width:1199px)
+{
+  .carousel
+  {
+    height: 300px;
+    padding-top: 10px;
+  }
+
 }
