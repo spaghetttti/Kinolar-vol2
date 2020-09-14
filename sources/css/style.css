@@ -150,11 +150,30 @@ td>a
 
 .btn
 {
-  background-color: #222;
-  border-color:  rgb(0 34 83 / 95%);
-  border-width: 3px;
+  background-color:rgb(21 52 98);
+  border-color:  white;
+  border-width: 1px;
 }
 
+.btn-primary:hover
+{
+  color: rgb(21 52 98);
+  background-color: white;
+  border-color: rgb(21 52 98);
+}
+
+.mainbtn
+{
+  background-color: #222;
+  color: white;
+}
+
+.mainbtn:hover
+{
+  background-color: white;
+  color: black;
+  border-color: black;
+}
 
 input.form-control
 {
@@ -163,23 +182,6 @@ input.form-control
   border-width: 1px;
   color: white;
  }
-
-.btn-lg
-{
-  border-color: white;
-  border-width: 1px;
-}
-
-button.mainbtn : hover
-{
-  background-color: white;
-  color: black;
-}
-
-.btn
-{
-  background-color:rgb(21 52 98);
-}
 
 .list-group>li
 {
@@ -212,17 +214,6 @@ button.mainbtn : hover
 .hig
 {
   background-color: #35be0e;
-}
-
-.panel button.btn-lg
-{
-  border-width: 1px;
-}
-
-.panel-body button.btn-primary
-{
-  border-width: 1px;
-  border-color: white;
 }
 
 .panel-body>p
